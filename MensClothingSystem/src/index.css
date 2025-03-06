@@ -1,0 +1,14 @@
+:root {
+    --primary-color: #ff6b6b;
+    --secondary-color: #4ecdc4;
+    --accent-color: #ffe66d;
+  }
+  
+  .btn {
+    background: var(--primary-color);
+    transition: transform 0.2s ease;
+  }
+  
+  .btn:hover {
+    transform: translateY(-2px);
+  }

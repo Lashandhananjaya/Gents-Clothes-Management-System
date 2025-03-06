@@ -1,0 +1,69 @@
+.about-wrapper{
+  background: linear-gradient(rgba(50, 135, 169, 0.7),rgba(14, 5, 77, 0.7)), url('../assets/program-2.jpg');
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 85vh;
+}
+
+
+.about-container {
+
+
+  width: 80%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  font-family: 'Arial', sans-serif;
+}
+
+
+
+/* Header Styles */
+.about-container h1 {
+  font-size: 2.5rem;
+  color: #343a40;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Paragraph Styles */
+.about-container p {
+  font-size: 1rem;
+  line-height: 1.8;
+  color: #495057;
+  margin-bottom: 15px;
+}
+
+/* Subheading Styles */
+.about-container h2 {
+  font-size: 1.8rem;
+  color: #007bff;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  border-bottom: 2px solid #007bff;
+  padding-bottom: 5px;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .about-container {
+    width: 95%;
+    padding: 15px;
+  }
+
+  .about-container h1 {
+    font-size: 2rem;
+  }
+
+  .about-container h2 {
+    font-size: 1.5rem;
+  }
+
+  .about-container p {
+    font-size: 0.95rem;
+  }
+}
